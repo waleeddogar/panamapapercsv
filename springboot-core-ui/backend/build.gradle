@@ -1,0 +1,16 @@
+springBoot {
+    executable = false
+    mainClass = 'com.rbc.Application'
+}
+
+dependencies {
+}
+
+jar {
+    baseName = 'rbc-coreui-backend'
+    version = '1.0.0'
+}
+
+task cleanAssets(type: Delete) {
+    delete "${project.buildDir}/src/main/resources/static"
+}

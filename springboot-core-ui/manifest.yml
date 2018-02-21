@@ -1,0 +1,5 @@
+---
+applications:
+- name: financial-crime-ui-core
+  memory: 2048M
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack

@@ -1,0 +1,4 @@
+rootProject.name = 'springboot-core-ui'
+
+include 'frontend'
+include 'backend'
